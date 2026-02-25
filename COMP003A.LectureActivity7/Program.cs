@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(" ");
+            int[] scores = { 85, 90, 78, 92, 88 };
         }
     }
 }
