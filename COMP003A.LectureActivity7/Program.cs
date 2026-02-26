@@ -17,13 +17,13 @@ namespace COMP003A.LectureActivity7
             names.Add("Alex");
             names.Add("Jordan");
             names.Add("Taylor");
-            Console.WriteLine("\nNames (using foreach):");
+            Console.WriteLine("\nNames:"); //using foreach
             foreach (string name in names)
             {
                 Console.WriteLine(name);
             }
 
-            Console.WriteLine("\nNames (using for): ");
+            Console.WriteLine("\nNames: "); //using for
             for (int i = 0; i < names.Count; i++)
             {
                 Console.WriteLine(names[i]);
@@ -41,7 +41,7 @@ namespace COMP003A.LectureActivity7
                 Console.WriteLine("Invalid number, please try again and pick between 1 and 3");
             }
 
-            Console.Write("\nEnter another number (using Try-Catch): ");
+            Console.Write("\nEnter another number: "); //using try-catch
             string input2 = Console.ReadLine();
             try
             {
