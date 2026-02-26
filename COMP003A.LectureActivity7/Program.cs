@@ -15,6 +15,11 @@
             names.Add("Alex");
             names.Add("Jordan");
             names.Add("Taylor");
+            Console.WriteLine("\nNames:");
+            foreach (string name in names)
+            {
+                Console.WriteLine(name);
+            }
         }
     }
 }
