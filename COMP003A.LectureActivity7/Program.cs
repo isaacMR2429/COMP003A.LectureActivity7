@@ -41,7 +41,7 @@ namespace COMP003A.LectureActivity7
                 Console.WriteLine("Invalid number, please try again and pick between 1 and 3");
             }
 
-            Console.Write("\nEnter another number(using Try-Catch): ");
+            Console.Write("\nEnter another number (using Try-Catch): ");
             string input2 = Console.ReadLine();
             try
             {
