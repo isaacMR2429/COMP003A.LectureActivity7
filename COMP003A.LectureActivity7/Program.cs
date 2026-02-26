@@ -40,6 +40,25 @@ namespace COMP003A.LectureActivity7
             {
                 Console.WriteLine("Invalid number, please try again and pick between 1 and 3");
             }
+
+            Console.Write("\nEnter another number(using Try-Catch): ");
+            string input2 = Console.ReadLine();
+            try
+            {
+                int choice = int.Parse(input2);
+                if (choice >= 1 && choice <= 3)
+                {
+                    Console.WriteLine("Valid number");
+                }
+                else
+                {
+                    Console.WriteLine("Please try again, choose number between 1 and 3");
+                }
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Invalid Input, please choose a number between 1 and 3");
+            }
         }
     }
 }
