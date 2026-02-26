@@ -10,6 +10,11 @@
             {
                 Console.WriteLine(scores[i]);
             }
+
+            List<string> names = new List<string>();
+            names.Add("Alex");
+            names.Add("Jordan");
+            names.Add("Taylor");
         }
     }
 }
