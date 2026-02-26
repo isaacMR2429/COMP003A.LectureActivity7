@@ -57,7 +57,7 @@ namespace COMP003A.LectureActivity7
             }
             catch (FormatException)
             {
-                Console.WriteLine("Invalid Input, please choose a number between 1 and 3");
+                Console.WriteLine("Invalid Input, please actually choose a number between 1 and 3");
             }
         }
     }
