@@ -59,6 +59,14 @@ namespace COMP003A.LectureActivity7
             {
                 Console.WriteLine("Invalid Input, please actually choose a number between 1 and 3");
             }
+            
+            // Part F
+            // 1. Input validation preferred over try-catch when possible it prevents errors before they happen.
+            // It avoids unnecessary exceptions and keeps the program flow consistent.
+            // 2. Try-catch still necessary in some cases because not all invalid inputs can be prevented.
+            // and try-catch ensures the program not to crash.
+            // 3. Debugging helped me understand loop behavior by showing how the loop variable changes each iteration
+            // and how each array or list elements are accessed step by step.
         }
     }
 }
